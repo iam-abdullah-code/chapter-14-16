@@ -82,35 +82,35 @@ console.log("Abdullah -->", StudentNamE[1][2] / TotalMarks * 100);
 
 // question 9
 
-// let colors = ["Red", "Green", "Blue"];
-// console.log("Initial Colors: " + colors + "<br>");
+let colors = ["Red", "Green", "Blue"];
+console.log("Initial Colors: " + colors + "<br>");
 
-// let addStart = prompt("Which color do you want to add to the beginning?");
-// colors.unshift(addStart);
-// console.log("After adding at beginning: " + colors + "<br>");
+let addStart = prompt("Which color do you want to add to the beginning?");
+colors.unshift(addStart);
+console.log("After adding at beginning: " + colors + "<br>");
 
-// let addEnd = prompt("Which color do you want to add to the end?");
-// colors.push(addEnd);
-// console.log("After adding at end: " + colors + "<br>");
+let addEnd = prompt("Which color do you want to add to the end?");
+colors.push(addEnd);
+console.log("After adding at end: " + colors + "<br>");
 
-// colors.unshift("Yellow", "Purple");
-// console.log("After adding two more at beginning: " + colors + "<br>");
+colors.unshift("Yellow", "Purple");
+console.log("After adding two more at beginning: " + colors + "<br>");
 
-// colors.shift();
-// console.log("After deleting first color: " + colors + "<br>");
+colors.shift();
+console.log("After deleting first color: " + colors + "<br>");
 
-// colors.pop();
-// console.log("After deleting last color: " + colors + "<br>");
+colors.pop();
+console.log("After deleting last color: " + colors + "<br>");
 
-// let addIndex = Number(prompt("At which index do you want to add a color?"));
-// let indexColorName = prompt("Enter the color name to add:");
-// colors.splice(addIndex, 0, indexColorName);
-// console.log("After adding at index " + addIndex + ": " + colors + "<br>");
+let addIndex = Number(prompt("At which index do you want to add a color?"));
+let indexColorName = prompt("Enter the color name to add:");
+colors.splice(addIndex, 0, indexColorName);
+console.log("After adding at index " + addIndex + ": " + colors + "<br>");
 
-// let delIndex = Number(prompt("At which index do you want to delete color(s)?"));
-// let delCount = Number(prompt("How many colors do you want to delete?"));
-// colors.splice(delIndex, delCount);
-// console.log("After deleting from index " + delIndex + ": " + colors + "<br>");
+let delIndex = Number(prompt("At which index do you want to delete color(s)?"));
+let delCount = Number(prompt("How many colors do you want to delete?"));
+colors.splice(delIndex, delCount);
+console.log("After deleting from index " + delIndex + ": " + colors + "<br>");
 
 
 // question 10
